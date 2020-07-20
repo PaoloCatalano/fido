@@ -5,7 +5,14 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "FIDO pet service",
+    description: "Il sito web di Fido dog sitter",
+    author: "@Fido",
+    twitterUsername: "@PaoroCatarano",
+    image: "/twitter-image.png",
+    siteUrl: "https://fidodogsitter.netlify.app/",
+  },
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

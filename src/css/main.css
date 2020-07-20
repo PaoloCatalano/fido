@@ -97,7 +97,7 @@ Global Styles
 *,
 ::after,
 ::before {
-  margin: 0px;
+  margin: 0 1px;
   padding: 1px 0;
   box-sizing: border-box;
   /* bordi per iniziare */
@@ -613,9 +613,9 @@ Sidebar
   color: var(--clr-white);
 }
 
-.side-container {
+/* .side-container {  
   width: 30rem;
-}
+} */
 .show-sidebar {
   opacity: 1;
   transform: translateX(0);
@@ -640,6 +640,16 @@ Sidebar
   background: var(--clr-primary-9);
   color: var(--clr-primary-5);
 }
+/*centrare il sidebar nello schermo del cell*/
+.side-container {
+  margin-left: -3rem;
+}
+
+.sidebar-icons{
+  display: inline-flex;
+  margin-left: 8rem;
+}
+
 .close-btn {
   position: absolute;
   right: 4.75%;
@@ -647,8 +657,10 @@ Sidebar
   font-size: 2.5rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-red-dark);
+  /* color: var(--clr-red-dark); */
+  color: var(--golden);
   cursor: pointer;
+  content: "CLOSE";
 }
 @media screen and (min-width: 992px) {
   .sidebar {

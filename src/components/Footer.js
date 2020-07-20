@@ -10,7 +10,7 @@ const Footer = ({ foto }) => {
       <div>
       <h4>
         copyright&copy;{new Date().getFullYear()}{" "}
-        <span>Alessandro Russo</span> P.Iva:05502960874
+            <span>Alessandro Russo</span>{" "}P.Iva:05502960874{"  "}
         <img src={logo} alt="logo" className="logo" />
       </h4>
       </div>

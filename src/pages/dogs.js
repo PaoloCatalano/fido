@@ -16,7 +16,7 @@ const DogsPage = ({ data }) => {
   
   return (
     <Layout foto={fluido}>
-      <SEO />
+      <SEO title="Dogs" description="Dogs page di Fido"/>
       <Dogs dogs={dogs} />
       <Link to="/" className="btn center-btn">
         torna alla Home Page

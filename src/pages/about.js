@@ -22,7 +22,7 @@ const { info, image} = nodes[0]
 
   return (
     <Layout foto={fluido}>
-      <SEO />
+      <SEO title={title || "Info"} description="about page di Fido"/>
       <section className="about-page">
         <div className="about-container">
           <Title title={title} />

@@ -4,9 +4,7 @@ import Title from "../components/Title"
 
 const RandomDog = ({ dogs }) => {
 
-    var rand = Math.floor(Math.random() * 8 ); //7 cani in Strapi
-    var dog = dogs[rand];
-    console.log(rand);
+    var dog = dogs[Math.floor(Math.random() * 8)]; //7 cani in Strapi
 
     return (
         <section className="section projects">

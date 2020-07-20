@@ -14,7 +14,7 @@ const Error = ({data}) =>{
 
     return (
         <Layout foto={fluido}>
-            <SEO />
+        <SEO title="Error Page" description="questa pagina di Fido non esiste"/>
             <h1>Questa pagina non esiste... </h1>
         <Link to="/" className="btn">
                 torna alla Home Page

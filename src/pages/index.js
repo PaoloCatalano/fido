@@ -25,7 +25,7 @@ export default ({ data }) => {
 
   return (
     <Layout foto={fluido} title="fido">
-      <SEO />
+      <SEO title="Home" description="questa è la home page di Fido"/>
       <Hero foto={fluid} title="fido"/>
       <Services title="servizi forniti"/>
       <RandomDog dogs={nodes} title="" />

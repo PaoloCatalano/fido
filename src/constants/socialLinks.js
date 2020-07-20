@@ -10,7 +10,7 @@ const data = [
   {
     id: 2,
     icon: <FaWhatsapp className="whatsapp" />,
-    url: "https://wa.me/00393466256832",
+    url: "https://wa.me/393466256832",
   },
   {
     id: 3,

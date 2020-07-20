@@ -6,7 +6,7 @@ const data = [
     id: 1,
     icon: <FaDog className="service-icon" />,
     title: "Dog walker",
-    text: `Servizio nato per venire incontro a tutti i proprietari che non riescono per vari motivi a passeggiare il proprio amico a 4 zampe. Il servizio consiste in passeggiate da 15 fino a 50 minuti. Il servizio si svolge a Catania e d'intorni.`,
+    text: `Servizio nato per venire incontro a tutti i proprietari che non riescono per vari motivi a passeggiare il proprio amico a 4 zampe. Il servizio consiste in passeggiate da 15 fino a 40 minuti. Il servizio si svolge a Catania e d'intorni.`,
   },
   {
     id: 2,
