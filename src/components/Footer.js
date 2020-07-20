@@ -7,11 +7,10 @@ const Footer = ({ foto }) => {
   return (
     <footer className="footer">
         <section className="footer-container">
-      <div>
+      <div className="footer-info">
       <h4>
-        copyright&copy;{new Date().getFullYear()}{" "}
+            copyright&copy;<>{new Date().getFullYear()}</>
             <span>Alessandro Russo</span>{" "}P.Iva:05502960874{"  "}
-        <img src={logo} alt="logo" className="logo" />
       </h4>
       </div>
       <div className="container-footer-links">
@@ -21,6 +20,7 @@ const Footer = ({ foto }) => {
       <section>
         <Image fluid={foto} className="foto-footer" />
       </section>
+        <img src={logo} alt="logo" className="logo-footer" />
     </footer>
   )
 }
