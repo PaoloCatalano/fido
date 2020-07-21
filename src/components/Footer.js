@@ -20,7 +20,11 @@ const Footer = ({ foto }) => {
       <section>
         <Image fluid={foto} className="foto-footer" />
       </section>
+      <section className="logo-footer-container">
+        <div></div>
         <img src={logo} alt="logo" className="logo-footer" />
+
+      </section>
     </footer>
   )
 }
